@@ -1,0 +1,151 @@
+body {
+  background-color: brown;
+}
+
+.welcome {
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+}
+
+#search {
+    width: 250px;
+    height: 35px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #555;
+    font-size: 18px;
+}
+
+#seif {
+  margin-bottom:15px;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  display: block;
+}
+#faris {
+  margin-bottom: 25px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+}
+#mahmoud {
+  margin-bottom: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+}
+
+#user_1 {
+  font-style:italic;
+  font-size: 20px;
+  margin-top: 15px;
+  display: block;
+}
+
+.wa_1 {
+  background-color: green;
+  border-radius: 20px;
+  width: 100px;
+  height: 60px;
+  text-align:center;
+  margin-top: 20px;
+  display:block;
+}
+
+.wa_1_image {
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+}
+
+.insta_1 {
+  background-color: #E1306c;
+  border-radius: 20px;
+  width: 100px;
+  height: 60px;
+  text-align:center;
+  margin-top: 20px;
+  display:block;
+}
+
+.insta_1_image {
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+}
+
+.tik_1 {
+  background-color: black;
+  border-radius: 20px;
+  width: 100px;
+  height: 60px;
+  text-align:center;
+  margin-top: 20px;
+  display:block;
+}
+
+.tik_1_image {
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+}
+
+.user-card {
+    width: 70%;
+    margin: 30px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius:50px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
