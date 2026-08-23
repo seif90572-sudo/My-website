@@ -58,6 +58,25 @@ body {
   display: block;
   object-fit: cover;
 }
+#mohamed{
+  margin-bottom: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+}
+#mohab{
+  margin-bottom: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+}
+
+
+
 #user_1 {
   font-style:italic;
   font-size: 20px;
